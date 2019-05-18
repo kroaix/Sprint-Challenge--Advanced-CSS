@@ -257,6 +257,7 @@ footer {
 .home .walk {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
   padding: 50px 60px;
   display: flex;
   justify-content: center;
@@ -329,36 +330,4 @@ footer {
     width: 100%;
     margin-top: 20px;
   }
-}
-.home footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column-reverse;
-}
-.home footer form {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50%;
-}
-.home footer form input {
-  width: 60%;
-  height: 30px;
-  margin-right: 5px;
-}
-.home footer button.btn {
-  text-align: center;
-  color: #F6F7F8;
-  background-color: #22283A;
-  width: 40%;
-  font-size: 1rem;
-  font-weight: bold;
-  padding: 8.5px 0px;
-  border-radius: 5px;
-}
-.home footer button.btn:hover {
-  color: #22283A;
-  background-color: #F6F7F8;
-  transition: background-color ease 1s;
 }
