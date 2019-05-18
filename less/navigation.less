@@ -4,20 +4,16 @@
   background-color: @nav-bg;
   h1{
     font-size: 4rem;
-    padding-top: 32px;
+    padding-top: 34px;
     text-align: center;
   }
   nav {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    .flex-center();
+    border-bottom: 3px solid @nav-border;
     
     a{
-      text-decoration: none;
-      color: @nav-font;
-      font-size: 1.6rem;
-      margin: 20px 15px 10px;
+      .nav-links();
+      margin: 20px 15px 9px;
     }
   }
 }
