@@ -75,9 +75,9 @@
       }
 
       .btn {
-        .custom-button(29.5%, 8.5px 0px);
+        .custom-button(29.5%, 8.5px 0px, 1.8rem);
         @media @phone{
-          .custom-button(100%, 26px 0px);
+          .custom-button(100%, 26px 0px, 1.8rem);
         }
       }
       @media @phone{
@@ -105,6 +105,22 @@
       padding: 20px;
       width: 100%;
       margin-top: 20px;
+    }
+  }
+  footer{
+    .flex-center();
+    flex-direction: column-reverse;
+    form{
+      .flex-center();
+      width: 50%;
+      input{
+        width: 60%;
+        height: 30px;
+        margin-right: 5px;
+      }
+    }
+    button.btn{
+      .custom-button(40%, 8.5px 0px, 1rem);
     }
   }
 }// home
