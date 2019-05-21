@@ -1,1 +1,28 @@
 // Mixins Here
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links{
+  text-decoration: none;
+  color: @nav-font;
+  font-size: 1.6rem;
+}
+
+.custom-button(@width, @padding){
+  text-align: center;
+  color: @porcelain;
+  background-color: @btn-bg-color;
+  width: @width;
+  font-size: 1.8rem;
+  font-weight: bold;
+  padding: @padding;
+  border-radius: 5px;
+  &:hover{
+    color: @btn-bg-color;
+    background-color: @porcelain;
+  }
+}

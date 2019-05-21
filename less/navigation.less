@@ -1,1 +1,19 @@
 // Navigation code here
+
+.nav {
+  background-color: @nav-bg;
+  h1{
+    font-size: 4rem;
+    padding-top: 34px;
+    text-align: center;
+  }
+  nav {
+    .flex-center();
+    border-bottom: 3px solid @nav-border;
+    
+    a{
+      .nav-links();
+      margin: 19px 15.8px 9px;
+    }
+  }
+}
